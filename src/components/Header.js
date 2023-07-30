@@ -1,15 +1,20 @@
 import logo from "../assets/logo.svg";
-import "./components.css";
+import "./header.css";
+import { MdMenu } from "react-icons/md";
 
 const Header = () => {
   return (
-    <section className="header">
-      <div className="container-logo">
-        <img className="logo" src={logo} alt="Logo" />
-        <span>ENSAR BEKTAS</span>
-      </div>
-      <div>Hamburger Button</div>
-    </section>
+    <header className="header">
+      <nav className="container-nav">
+        <div className="container-logo">
+          <img className="logo" src={logo} alt="Logo" />
+          <span>ENSAR BEKTAS</span>
+        </div>
+        <div className="burger-menu">
+          <MdMenu />
+        </div>
+      </nav>
+    </header>
   );
 };
 

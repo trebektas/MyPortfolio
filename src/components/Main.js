@@ -1,5 +1,11 @@
+import Intro from "./Intro.js";
+
 const Main = () => {
-  return <section className="main">Main</section>;
+  return (
+    <main className="main" id="main">
+      <Intro />
+    </main>
+  );
 };
 
 export default Main;

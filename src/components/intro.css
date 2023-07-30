@@ -1,0 +1,35 @@
+.container-intro {
+  background: url(../assets/background-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-intro h1 {
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: whitesmoke;
+  margin-bottom: 25px;
+}
+
+.container-intro p {
+  color: #cccccc;
+  margin-bottom: 70px;
+  font-size: 20px;
+}
+
+.container-intro a {
+  color: #cccccc;
+  font-size: 40px;
+}
+
+.container-intro a:hover {
+  color: white;
+}
