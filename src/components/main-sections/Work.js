@@ -1,8 +1,8 @@
-const Contact = () => {
+const Work = () => {
   return (
-    <section className="sections contact">
+    <section className="sections work">
       <div className="container-section">
-        Contact - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+        Work - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
         pulvinar quam sed risus sollicitudin, nec tincidunt tortor egestas.
         Aenean dictum justo id vulputate vehicula. Nunc in euismod nisl, in
         ornare justo. Phasellus id mollis odio, imperdiet venenatis eros. Sed
@@ -17,4 +17,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Work;

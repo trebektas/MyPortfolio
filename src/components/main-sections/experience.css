@@ -1,0 +1,9 @@
+.list-logos {
+  display: flex;
+  list-style: none;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+}
