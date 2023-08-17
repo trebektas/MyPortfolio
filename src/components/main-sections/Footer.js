@@ -1,3 +1,5 @@
+import "./footer.css";
+
 const Footer = () => {
   return (
     <section className="sections footer">
