@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
+
 .main {
   height: 100vh;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-section {

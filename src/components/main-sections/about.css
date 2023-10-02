@@ -6,10 +6,33 @@
 .about-me {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .about-me img {
   width: 20em;
+}
+
+.about-article {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.about-article h1 {
+  font-size: 4.4em;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.about-article p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 .list-about-texts {
@@ -20,4 +43,5 @@
   list-style: none;
   width: 300px;
   padding-right: 30px;
+  font-size: 0.9em;
 }

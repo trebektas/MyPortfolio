@@ -6,7 +6,7 @@ const About = () => {
     <section className="sections about" id="about">
       <div className="container-section">
         <div className="about-me">
-          <article>
+          <article className="about-article">
             <h1>Web Developer</h1>
             <p>
               As I grow as a developer, I hope to write clean, readable code
